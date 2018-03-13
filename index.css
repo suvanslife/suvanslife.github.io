@@ -1,25 +1,48 @@
-<!DOCTYPE html>
-<html>
+.item1 {
+  grid-area: link1;
+}
 
-<head>
-  <link rel="stylesheet" href="index.css">
-</head>
+.item2 {
+  grid-area: link2;
+}
 
-<body>
+.item3 {
+  grid-area: link3;
+}
 
-  <h1>Suvan's Life</h1>
+.item4 {
+  grid-area: header;
+}
 
-  <p>The intresting and entertaining life of Suvan:</p>
+.item5 {
+  grid-area: menu;
+}
 
-  <div class="grid-container">
-    <div class="item1"><a href="https://suvanslife.github.io">home</a></div>
-    <div class="item2"><a href="aboutme.html">aboutme</a></div>
-    <div class="item3"><a href="gallery.html">gallery</a></div>
-    <div class="item4">Fun </div>
-    <div class="item5">Footer</div>
-    <div class="item6">goodstuff</div>
-  </div>
+.item6 {
+  grid-area: main;
+}
 
-</body>
+.item7 {
+  grid-area: footer;
+}
 
-</html>
+.grid-container {
+  display: grid;
+  grid-template-areas: 'header header header header header header' 'link1 link1 link2 link2 link3 link3' 'menu main main main main main' 'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #E6E6FA;
+  padding: 10px;
+}
+
+.grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+  {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  </style>
