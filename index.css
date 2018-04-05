@@ -11,26 +11,46 @@
 }
 
 .item4 {
-  grid-area: header;
+  grid-area: link4;
 }
 
 .item5 {
-  grid-area: menu;
+  grid-area: link5;
 }
 
 .item6 {
-  grid-area: main;
+  grid-area: link6;
 }
 
 .item7 {
-  grid-area: footer;
+  grid-area: link7;
+}
+
+.item8 {
+  grid-area: link8;
+}
+
+.item9 {
+  grid-area: link9;
+}
+
+.item10 {
+  grid-area: link10;
+}
+
+.item11 {
+  grid-area: link11;
+}
+
+.item12 {
+  grid-area: link12;
 }
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'header header header header header header' 'link1 link1 link2 link2 link3 link3' 'menu main main main main main' 'menu footer footer footer footer footer';
+  grid-template-areas: 'link1 link2 link3' 'link4 link5 link6' 'link7 link8 link9' 'link10 link11 link12';
   grid-gap: 10px;
-  background-color: #E6E6FA;
+  background-color: #E6E9FA;
   padding: 10px;
 }
 
